@@ -1,7 +1,12 @@
 import { defineConfig, Options } from "tsup";
 
 export default defineConfig((options: Options) => ({
-  entry: ["./src/lib/**/*.ts", "./src/index.ts", "./src/**/*.tsx"],
+  entry: [
+    "./src/lib/**/*.ts",
+    "./src/index.ts",
+    "./src/components/index.ts",
+    "./src/components/**/*.tsx",
+  ],
   treeshake: true,
   splitting: true,
   // sourcemap: true,
