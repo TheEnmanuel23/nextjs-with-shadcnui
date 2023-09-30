@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const sharedConfig = require("tailwind-config/tailwind.config.js");
 module.exports = {
-  darkMode: ["class"],
+  ...sharedConfig,
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     container: {
