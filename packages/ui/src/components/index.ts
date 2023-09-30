@@ -1,4 +1,4 @@
-export { Card } from "./Card";
-export { Button } from "./button";
-export { Sidebar } from "./Sidebar";
-export { Alert } from "./Alert";
+export * from "./Card";
+export * from "./button";
+export * from "./Sidebar";
+export * from "./alert";
