@@ -4,7 +4,7 @@ export default function Page(): JSX.Element {
   return (
     <main>
       company page
-      <Button />
+      <Button variant="destructive">Cick me</Button>
     </main>
   );
 }
